@@ -42,5 +42,7 @@ public class linearSearch {
 
 
 
+        sc.close();
+
     }    
 }

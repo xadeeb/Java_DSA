@@ -9,6 +9,8 @@ public class arrays_arguments {
     }
     public static void main(String[] args) {
         
+        Scanner sc = new Scanner(System.in);
+
         int marks[] = {97, 98, 99, 100};
 
         array_update(marks);
@@ -17,5 +19,7 @@ public class arrays_arguments {
             System.out.print(marks[i] + " ");
         }
 
+
+        sc.close();
     }
 }
