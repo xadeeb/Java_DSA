@@ -1,8 +1,36 @@
+import java.util.*;
+
 public class array2D {
     
     public static void main(String[] args) {
         
-        System.out.println("1708");
-        System.out.println("Too Green graph of github");
+       Scanner sc = new Scanner(System.in);
+
+       
+       int matrix[][] = new int[3][3];
+
+       int n = matrix.length;
+       int m = matrix[0].length;
+
+       //to take input of a matrix
+
+       for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                matrix[i][j] = sc.nextInt();
+            }
+       }
+
+       // to print matrix
+
+       for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                System.out.print(matrix[i][j]+ " ");
+            }
+
+            System.out.println();
+       }
+
+
+       sc.close();
     }
 }
