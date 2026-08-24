@@ -2,8 +2,18 @@ import java.util.Scanner;
 
 public class searchIn2d {
 
-    public static void search(int arr[][]){
+    public static void search(int arr[][], int key){
 
+        int n = arr.length;
+        int m = arr[0].length;
+
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(arr[i][j] == key){
+                    System.out.println("Key found at index " + "("+i+","+j+")");
+                }
+            }
+       }
         
     }
     public static void main(String[] args) {
@@ -32,6 +42,8 @@ public class searchIn2d {
 
             System.out.println();
        }
+
+       search(matrix, 6);
 
 
        sc.close();
