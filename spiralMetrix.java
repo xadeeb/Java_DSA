@@ -14,5 +14,7 @@ public class spiralMetrix {
 
         matrixSpiral(2);
         System.out.println(" lv "+"t");
+
+        
     }
 }
