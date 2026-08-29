@@ -13,7 +13,7 @@ public class spiralMetrix {
     public static void main(String[] args) {
 
         matrixSpiral(2);
-        System.out.println(" lov "+"tanu ");
+        System.out.println(" "+"tanu ");
 
 
     }
